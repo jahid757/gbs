@@ -68,9 +68,9 @@ img {
 }
 .slider_section {
   margin-top: 94px;
-  height: 560px;
+  /* height: 560px; */
   clear: both;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 .slider_section img {
