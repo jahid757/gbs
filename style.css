@@ -375,7 +375,7 @@ select {
     height: 100%;
     background-color: #26a8ff;
     left: 0;
-    top: -700px;
+    top: -900px;
     text-align: center;
     transition: .5s;
   }
