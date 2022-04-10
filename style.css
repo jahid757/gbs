@@ -367,6 +367,7 @@ select {
     display: block;
     font-size: 20px;
     color: #fff;
+    cursor: pointer;
   }
   .menu{
     position: fixed;
