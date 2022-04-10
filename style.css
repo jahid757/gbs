@@ -356,3 +356,41 @@ select {
 .logo {
   width: 85px;
 }
+.fa-bars{
+  display: none;
+}
+@media (max-width:600px){
+  .logo {
+    width: 70px;
+  }
+  .fa-bars{
+    display: block;
+    font-size: 20px;
+    color: #fff;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #26a8ff;
+    left: 0;
+    top: -700px;
+    text-align: center;
+    transition: .5s;
+  }
+  .menu.active{
+    top: 70px;
+  }
+  .menu li{
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #7bc1ef;
+    padding-bottom: 10px;
+  }
+  .menu li.right_link{
+    border: none;
+  }
+  .slider_section{
+    margin-top: 70px;
+  }
+}
